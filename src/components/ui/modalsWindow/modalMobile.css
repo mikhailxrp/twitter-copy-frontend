@@ -1,0 +1,29 @@
+.modal-mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.modal-content {
+  position: absolute;
+  border-radius: 15px 15px 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.modal-content-divider {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: rgb(171, 172, 177);
+}

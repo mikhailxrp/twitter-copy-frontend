@@ -1,0 +1,18 @@
+.messages-inner {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 760px;
+}
+
+.messages-inner {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+.messages-inner::-webkit-scrollbar {
+  width: 2px;
+  background-color: #f9f9fd;
+}
+.messages-inner::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+}
